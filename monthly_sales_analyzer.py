@@ -41,17 +41,17 @@ def average_daily_sales(data, product_key):
 def best_selling_day(data):
     """Finds the day with the highest total sales."""
     pass
-    
+
     max_sales = 0
     best_day = None
-
-    for day in data:
-
-        daily_total = ( day["product_a"] + day["product_b"] + day["product_c"])
-        
-        if daily_total > max_sales:
-            max_sales = daily_total
-            best_day = day["day"]
+    
+    # Logic must be indented inside the function
+    for entry in data:
+        total_sales = entry["product_a"] + entry["product_b"] + entry["product_c"]
+        if total_sales > max_sales:
+            max_sales = total_sales
+            best_day = entry["day"]
+    return best_day # Don't forget to return the result!
 
 
 def days_above_threshold(data, product_key, threshold):
