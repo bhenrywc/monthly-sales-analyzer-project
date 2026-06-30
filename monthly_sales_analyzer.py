@@ -8,7 +8,7 @@ sales_data = [
     {"day": 6, "product_a": 230, "product_b": 199, "product_c": 202},
     {"day": 7, "product_a": 101, "product_b": 137, "product_c": 307},
     {"day": 8, "product_a": 137, "product_b": 179, "product_c": 341},
-    {"day": 9, "product_a": 287, "": 70, "product_c": 310},
+    {"day": 9, "product_a": 287, "product_b": 70, "product_c": 310},
     {"day": 10, "product_a": 157, "product_b": 71, "product_c": 238},
     {"day": 11, "product_a": 148, "product_b": 108, "product_c": 319},
     {"day": 12, "product_a": 287, "product_b": 64, "product_c": 339},
